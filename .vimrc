@@ -1,6 +1,7 @@
 " Behaviour
 
 set whichwrap+=<,>,h,l,[,]
+set laststatus=2
 
 
 " =================t=
@@ -46,8 +47,9 @@ Plug 'artanikin/vim-synthwave84'
 Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'mattn/emmet-vim'
-Plug 'terryma/vim-multiple-cursors'
+"Plug 'terryma/vim-multiple-cursors'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf.vim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
