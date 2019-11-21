@@ -1,7 +1,11 @@
+" Behaviour
+
+set whichwrap+=<,>,h,l,[,]
+
+
 " =================t=
 "	     Tabs
 " ===================
-
 filetype plugin indent on
 " Show existing tab with 4 spaces width
 set tabstop=4
@@ -37,10 +41,13 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-" Auto paren pair insertion/deletion
 Plug 'jiangmiao/auto-pairs'
-
-" Vim Theme
 Plug 'artanikin/vim-synthwave84'
+Plug 'scrooloose/nerdtree'
+Plug 'airblade/vim-gitgutter'
+Plug 'mattn/emmet-vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
