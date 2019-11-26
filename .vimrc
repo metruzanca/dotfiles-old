@@ -52,4 +52,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+Plug 'phanviet/vim-monokai-pro'
+
 call plug#end()
