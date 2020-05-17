@@ -124,7 +124,8 @@ case $- in
 
 
 # SSH shorcuts
-alias zayde="ssh root@157.230.108.179";
+
+alias zayde="ssh root@157.230.108.179"
 
 
 
