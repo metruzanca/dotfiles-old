@@ -108,3 +108,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 if [ -f ~/.aliases ]; then
 	. ~/.aliases
 fi
+
+
+# Rust env vars
+export PATH="$HOME/.cargo/bin:$PATH"
