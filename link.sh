@@ -12,6 +12,7 @@
 . $(dirname $0)/helpers/colours.sh # Load helper script from dot/helpers.
 
 
+
 : ${FROMPATH:="$HOME"} # Where you keep your dotfiles, overwrite if necessary.
 : ${BACKUP:="$FROMPATH/backup"} # Place to back up old files.
 mkdir -p "$BACKUP"
