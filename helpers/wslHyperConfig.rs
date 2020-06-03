@@ -1,19 +1,19 @@
-// use std::fs;
+ use std::fs;
 
-extern crate dotenv;
+//extern crate dotenv;
 
 use std::env;
-use dotenv::dotenv;
+//use dotenv::dotenv;
 
 fn main() -> std::io::Result<()> {
-    dotenv().ok();
-    // let args: Vec<String> = env::args().collect();
+//    dotenv().ok();
+    let args: Vec<String> = env::args().collect();
 
-    // let username = &args[1];
-    // fs::copy("../dot/.config/Hyper/.hyper.js", format!("/mnt/c/Users/{}/AppData/Roaming/Hyper/.hyper.js", username))?;  
+     let username = &args[1];
+     fs::copy("../dot/.config/Hyper/.hyper.js", format!("/mnt/c/Users/{}/AppData/Roaming/Hyper/.hyper.js", username))?;  
     // println!("/mnt/c/Users/{}/AppData/Roaming/Hyper/.hyper.js", username);
-    for (key, value) in env::vars() {
-        println!("{}: {}", key, value);
-    }
-    // Ok(())
+//    for (key, value) in env::vars() {
+//        println!("{}: {}", key, value);
+//    }
+     Ok(())
 }
