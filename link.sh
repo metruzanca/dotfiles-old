@@ -50,3 +50,6 @@ for FILE in $(find . -type f -o -type l | sed 's|./||'); do
 done
 
 [ "$(ls -A $BACKUP)" ] || rm -r "$BACKUP" # Clean up backup folder if empty
+
+# WIP Linking binaries
+ln -s ~/Dev/dotfiles/bin/exa-linux-x86_64 /usr/local/bin/exa-linux-x86_64
